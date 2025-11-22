@@ -1,0 +1,41 @@
+[
+    {
+        "id": "geom_circle_001",
+        "difficulty": "Easy",
+        "question_text": "A circle has a radius of 7. What is its circumference? (Use π ≈ 3.14)",
+        "options": [
+            "A) 14",
+            "B) 22",
+            "C) 44",
+            "D) 154"
+        ],
+        "correct_answer": "C",
+        "explanation": "Circumference = 2πr = 2 * 3.14 * 7 = 43.96 ≈ 44."
+    },
+    {
+        "id": "geom_circle_002",
+        "difficulty": "Medium",
+        "question_text": "What is the center of the circle defined by (x - 5)^2 + (y + 2)^2 = 25?",
+        "options": [
+            "A) (-5, 2)",
+            "B) (5, -2)",
+            "C) (5, 2)",
+            "D) (-5, -2)"
+        ],
+        "correct_answer": "B",
+        "explanation": "The standard form is (x - h)^2 + (y - k)^2 = r^2. Here, h = 5 and k = -2. The center is (5, -2)."
+    },
+    {
+        "id": "geom_circle_003",
+        "difficulty": "Hard",
+        "question_text": "A sector of a circle with radius 6 has a central angle of 60°. What is the area of the sector? (Use π ≈ 3.14)",
+        "options": [
+            "A) 6π",
+            "B) 18.84",
+            "C) 18",
+            "D) 12π"
+        ],
+        "correct_answer": "B",
+        "explanation": "Sector area = (θ/360) * πr^2 = (60/360) * π * 6^2 = (1/6) * 3.14 * 36 = (1/6) * 113.04 = 18.84."
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "id": "prob_percent_001",
+        "difficulty": "Easy",
+        "question_text": "What is 30% of 200?",
+        "options": [
+            "A) 30",
+            "B) 60",
+            "C) 100",
+            "D) 150"
+        ],
+        "correct_answer": "B",
+        "explanation": "Convert 30% to decimal: 0.30. Multiply: 0.30 * 200 = 60."
+    },
+    {
+        "id": "prob_percent_002",
+        "difficulty": "Medium",
+        "question_text": "A population increases from 500 to 650. What is the percent increase?",
+        "options": [
+            "A) 15%",
+            "B) 23%",
+            "C) 30%",
+            "D) 150%"
+        ],
+        "correct_answer": "C",
+        "explanation": "Percent change = (New - Old) / Old * 100 = (650 - 500) / 500 * 100 = 150 / 500 * 100 = 0.3 * 100 = 30%."
+    },
+    {
+        "id": "prob_percent_003",
+        "difficulty": "Hard",
+        "question_text": "A price is increased by 20%, then decreased by 20%. What is the net effect on the original price?",
+        "options": [
+            "A) No change",
+            "B) 4% decrease",
+            "C) 4% increase",
+            "D) 40% decrease"
+        ],
+        "correct_answer": "B",
+        "explanation": "Start with price P. After 20% increase: P * 1.20. After 20% decrease: (P * 1.20) * 0.80 = P * 0.96. This is 96% of the original, so a 4% decrease."
+    }
+]

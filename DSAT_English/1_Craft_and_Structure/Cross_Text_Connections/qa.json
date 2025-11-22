@@ -1,0 +1,44 @@
+[
+    {
+        "id": "ctc_001",
+        "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the claim made in Text 1?",
+        "passage": "Text 1: The rise of e-books has led many to predict the death of the physical library. With books instantly available for download, the need for a physical space to borrow materials seems obsolete.\n\nText 2: Libraries have evolved into community hubs, offering free Wi-Fi, job training, and makerspaces. While book lending is still a core service, the modern library's value lies in its role as a gathering place, ensuring its relevance in the digital age.",
+        "options": [
+            "A) By agreeing that libraries are no longer necessary for borrowing books.",
+            "B) By arguing that e-books are more expensive than physical books.",
+            "C) By asserting that libraries serve a purpose beyond just lending books.",
+            "D) By claiming that e-book popularity is declining."
+        ],
+        "correct_answer": "C",
+        "explanation": "Text 1 claims libraries are obsolete because of e-books (focus on lending). Text 2 argues libraries are relevant as 'community hubs' (focus on other services). So Author 2 would say libraries are still useful for reasons *other* than just books.",
+        "difficulty": "Easy"
+    },
+    {
+        "id": "ctc_002",
+        "question_text": "Which choice best describes the relationship between the two texts?",
+        "passage": "Text 1: Many researchers believe that the statues on Easter Island were moved by 'walking' them—rocking them back and forth with ropes. This theory explains how the heavy figures could be transported without wheels.\n\nText 2: An experiment using a replica statue showed that while 'walking' is possible, it causes significant damage to the statue's base. The researchers concluded that the statues were likely transported horizontally on wooden sleds to preserve their intricate carving.",
+        "options": [
+            "A) Text 2 questions the feasibility of the method described in Text 1 based on experimental evidence.",
+            "B) Text 2 provides additional evidence to support the theory presented in Text 1.",
+            "C) Text 2 introduces a new statue discovery that contradicts the timeline in Text 1.",
+            "D) Text 1 criticizes the experimental methods used by the researchers in Text 2."
+        ],
+        "correct_answer": "A",
+        "explanation": "Text 1 proposes the 'walking' theory. Text 2 says an experiment showed 'walking' causes damage, so they were likely moved on sleds. Thus, Text 2 questions/challenges the method in Text 1.",
+        "difficulty": "Medium"
+    },
+    {
+        "id": "ctc_003",
+        "question_text": "Based on the texts, what would the author of Text 2 likely say about the 'traditional view' mentioned in Text 1?",
+        "passage": "Text 1: The traditional view of the poet Emily Dickinson is that she was a recluse who wrote in isolation, cut off from the major literary movements of her time. This image has been romanticized for over a century.\n\nText 2: Analysis of Dickinson’s letters reveals a vibrant correspondence with leading editors and writers of her day. She actively sought feedback on her work and was well-aware of the publishing world, even if she chose not to participate in it publicly.",
+        "options": [
+            "A) It is accurate because she never published her poems during her lifetime.",
+            "B) It is a misconception that ignores her active engagement with the literary community.",
+            "C) It correctly identifies her as a recluse but fails to appreciate her poetry.",
+            "D) It underestimates the influence of her family on her writing style."
+        ],
+        "correct_answer": "B",
+        "explanation": "Text 1 defines the traditional view (recluse, isolated). Text 2 shows she had 'vibrant correspondence' and 'sought feedback'. Therefore, Author 2 would view the traditional idea of isolation as a misconception.",
+        "difficulty": "Hard"
+    }
+]

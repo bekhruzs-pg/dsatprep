@@ -1,0 +1,41 @@
+[
+    {
+        "id": "prob_stats_001",
+        "difficulty": "Easy",
+        "question_text": "What is the mean of the data set: 3, 7, 8, 12?",
+        "options": [
+            "A) 7",
+            "B) 7.5",
+            "C) 8",
+            "D) 30"
+        ],
+        "correct_answer": "B",
+        "explanation": "Sum = 3 + 7 + 8 + 12 = 30. Number of values = 4. Mean = 30 / 4 = 7.5."
+    },
+    {
+        "id": "prob_stats_002",
+        "difficulty": "Medium",
+        "question_text": "The data set 5, 6, 7, 8, 9 has a mean of 7. If the value 100 is added, which statement is true?",
+        "options": [
+            "A) The mean increases significantly, the median does not",
+            "B) The median increases significantly, the mean does not",
+            "C) Both increase significantly",
+            "D) Neither changes"
+        ],
+        "correct_answer": "A",
+        "explanation": "Original median = 7. Adding 100: 5, 6, 7, 8, 9, 100. New median = (7+8)/2 = 7.5 (small change). New mean = (5+6+7+8+9+100)/6 = 135/6 = 22.5 (huge increase). The outlier (100) drastically affects the mean but barely affects the median."
+    },
+    {
+        "id": "prob_stats_003",
+        "difficulty": "Hard",
+        "question_text": "A researcher wants to survey students about their satisfaction with school lunch. Which method provides the most unbiased sample?",
+        "options": [
+            "A) Survey students in the cafeteria during lunch",
+            "B) Survey the first 100 students who enter the school",
+            "C) Randomly select 100 student ID numbers from the entire school roster",
+            "D) Survey all members of the student council"
+        ],
+        "correct_answer": "C",
+        "explanation": "Option A: Biased toward students who eat lunch at school. Option B: Biased toward early arrivals. Option D: Biased toward student leaders. Option C: Random selection from the entire population is the most unbiased method."
+    }
+]

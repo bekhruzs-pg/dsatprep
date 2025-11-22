@@ -1,0 +1,41 @@
+[
+    {
+        "id": "alg_lin_func_001",
+        "difficulty": "Easy",
+        "question_text": "What is the slope of the line defined by the equation y = -4x + 7?",
+        "options": [
+            "A) 4",
+            "B) 7",
+            "C) -4",
+            "D) -7"
+        ],
+        "correct_answer": "C",
+        "explanation": "The equation is in slope-intercept form y = mx + b, where m is the slope. Here, m = -4."
+    },
+    {
+        "id": "alg_lin_func_002",
+        "difficulty": "Medium",
+        "question_text": "Line k passes through the points (1, 3) and (3, 11). What is the equation of line k?",
+        "options": [
+            "A) y = 2x + 1",
+            "B) y = 4x - 1",
+            "C) y = 4x + 1",
+            "D) y = 2x + 5"
+        ],
+        "correct_answer": "B",
+        "explanation": "First, find the slope: (11 - 3) / (3 - 1) = 8 / 2 = 4. The equation is y = 4x + b. Plug in (1, 3): 3 = 4(1) + b, so b = -1. The equation is y = 4x - 1."
+    },
+    {
+        "id": "alg_lin_func_003",
+        "difficulty": "Hard",
+        "question_text": "Line p is defined by 3x + 2y = 12. Line q is perpendicular to line p and passes through (0, 0). What is the equation of line q?",
+        "options": [
+            "A) y = -3/2 x",
+            "B) y = 2/3 x",
+            "C) y = 3/2 x",
+            "D) y = -2/3 x"
+        ],
+        "correct_answer": "B",
+        "explanation": "Find slope of p: 2y = -3x + 12 -> y = -3/2 x + 6. Slope is -3/2. Slope of perpendicular line q is the negative reciprocal: 2/3. Since it passes through origin (0,0), y-intercept is 0. Equation: y = 2/3 x."
+    }
+]

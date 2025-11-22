@@ -1,0 +1,41 @@
+[
+    {
+        "id": "adv_equiv_exp_001",
+        "difficulty": "Easy",
+        "question_text": "Which of the following is equivalent to 3(x^2 + 2x) - 2(x^2 - x)?",
+        "options": [
+            "A) x^2 + 4x",
+            "B) x^2 + 8x",
+            "C) 5x^2 + 4x",
+            "D) 5x^2 + 8x"
+        ],
+        "correct_answer": "B",
+        "explanation": "Distribute: 3x^2 + 6x - 2x^2 + 2x. Combine like terms: (3-2)x^2 + (6+2)x = x^2 + 8x."
+    },
+    {
+        "id": "adv_equiv_exp_002",
+        "difficulty": "Medium",
+        "question_text": "Which expression is equivalent to (x^4 - 16)?",
+        "options": [
+            "A) (x-2)(x+2)(x^2+4)",
+            "B) (x-2)^2(x+2)^2",
+            "C) (x^2-4)^2",
+            "D) (x-4)(x+4)"
+        ],
+        "correct_answer": "A",
+        "explanation": "Difference of squares: x^4 - 16 = (x^2 - 4)(x^2 + 4). Factor x^2 - 4 further: (x-2)(x+2). So, (x-2)(x+2)(x^2+4)."
+    },
+    {
+        "id": "adv_equiv_exp_003",
+        "difficulty": "Hard",
+        "question_text": "If a > 0 and a^(2/3) = 4, what is the value of a?",
+        "options": [
+            "A) 2",
+            "B) 4",
+            "C) 8",
+            "D) 16"
+        ],
+        "correct_answer": "C",
+        "explanation": "Raise both sides to the power of 3/2 (the reciprocal of 2/3): (a^(2/3))^(3/2) = 4^(3/2). a = (sqrt(4))^3 = 2^3 = 8."
+    }
+]

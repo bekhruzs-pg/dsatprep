@@ -1,0 +1,109 @@
+/* Additional styles for expandable topics */
+.domainCard {
+    padding: var(--spacing-xl);
+    cursor: pointer;
+    transition: all var(--transition-base);
+}
+
+.domainHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-sm);
+}
+
+.domainHeader h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.topicCount {
+    font-size: 0.875rem;
+    color: var(--text-tertiary);
+    font-weight: 600;
+}
+
+.domainFooter {
+    margin-top: var(--spacing-md);
+    color: var(--accent-600);
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.loading {
+    text-align: center;
+    padding: var(--spacing-2xl);
+    color: var(--text-secondary);
+}
+
+.sectionSubtitle {
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 1.125rem;
+    margin-top: -var(--spacing-lg);
+    margin-bottom: var(--spacing-2xl);
+}
+
+.topicsList {
+    margin-top: var(--spacing-lg);
+    padding-top: var(--spacing-lg);
+    border-top: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.topicItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--spacing-md);
+    border-radius: var(--radius-md);
+    background: var(--surface);
+    transition: all var(--transition-fast);
+    text-decoration: none;
+    color: var(--text-primary);
+    border: 1px solid var(--border);
+}
+
+.topicItem:hover {
+    background: var(--surface-highlight);
+    border-color: var(--accent-500);
+    transform: translateX(4px);
+}
+
+@media (prefers-color-scheme: dark) {
+    .topicItem:hover {
+        background: var(--surface-highlight);
+        border-color: var(--accent-500);
+    }
+}
+
+.topicName {
+    font-weight: 600;
+    flex: 1;
+}
+
+.topicMeta {
+    display: flex;
+    gap: 0.5rem;
+    margin-right: var(--spacing-md);
+}
+
+.topicMeta .badge {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    background: var(--surface-elevated);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+}
+
+.arrow {
+    color: var(--accent-600);
+    font-size: 1.25rem;
+    transition: transform var(--transition-fast);
+}
+
+.topicItem:hover .arrow {
+    transform: translateX(4px);
+}

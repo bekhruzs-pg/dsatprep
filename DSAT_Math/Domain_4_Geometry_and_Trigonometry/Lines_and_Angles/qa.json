@@ -1,0 +1,41 @@
+[
+    {
+        "id": "geom_lines_001",
+        "difficulty": "Easy",
+        "question_text": "Two angles are vertical angles. If one measures 75°, what is the measure of the other?",
+        "options": [
+            "A) 15°",
+            "B) 75°",
+            "C) 105°",
+            "D) 180°"
+        ],
+        "correct_answer": "B",
+        "explanation": "Vertical angles are always equal. If one is 75°, the other is also 75°."
+    },
+    {
+        "id": "geom_lines_002",
+        "difficulty": "Medium",
+        "question_text": "Two angles form a linear pair. One measures 3x and the other measures 2x. What is the value of x?",
+        "options": [
+            "A) 30",
+            "B) 36",
+            "C) 45",
+            "D) 60"
+        ],
+        "correct_answer": "B",
+        "explanation": "Linear pairs are supplementary (sum to 180°). 3x + 2x = 180. 5x = 180. x = 36."
+    },
+    {
+        "id": "geom_lines_003",
+        "difficulty": "Hard",
+        "question_text": "Two parallel lines are cut by a transversal. An alternate interior angle measures (4x - 10)° and its pair measures (3x + 20)°. What is x?",
+        "options": [
+            "A) 10",
+            "B) 20",
+            "C) 30",
+            "D) 40"
+        ],
+        "correct_answer": "C",
+        "explanation": "Alternate interior angles are equal. 4x - 10 = 3x + 20. Subtract 3x: x - 10 = 20. Add 10: x = 30."
+    }
+]

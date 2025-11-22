@@ -1,0 +1,41 @@
+[
+    {
+        "id": "prob_scatter_001",
+        "difficulty": "Easy",
+        "question_text": "A line of best fit is y = 3x + 2. What is the predicted value of y when x = 5?",
+        "options": [
+            "A) 15",
+            "B) 17",
+            "C) 20",
+            "D) 23"
+        ],
+        "correct_answer": "B",
+        "explanation": "Plug in x=5: y = 3(5) + 2 = 15 + 2 = 17."
+    },
+    {
+        "id": "prob_scatter_002",
+        "difficulty": "Medium",
+        "question_text": "A scatterplot shows the relationship between years of experience (x) and salary (y). The line of best fit is y = 2500x + 30000. What does the y-intercept represent?",
+        "options": [
+            "A) The salary increase per year of experience",
+            "B) The starting salary with 0 years of experience",
+            "C) The maximum possible salary",
+            "D) The average salary"
+        ],
+        "correct_answer": "B",
+        "explanation": "The y-intercept occurs when x=0. In this context, it represents the predicted salary when years of experience = 0, i.e., the starting salary."
+    },
+    {
+        "id": "prob_scatter_003",
+        "difficulty": "Hard",
+        "question_text": "Which of the following best describes a scatterplot where, as x increases, y decreases at an increasing rate?",
+        "options": [
+            "A) Positive linear",
+            "B) Negative linear",
+            "C) Positive exponential",
+            "D) Negative exponential"
+        ],
+        "correct_answer": "D",
+        "explanation": "Decreasing means negative correlation. 'At an increasing rate' (the drop accelerates) suggests exponential, not linear. So, negative exponential decay."
+    }
+]

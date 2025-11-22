@@ -1,0 +1,41 @@
+[
+    {
+        "id": "prob_probability_001",
+        "difficulty": "Easy",
+        "question_text": "A fair 6-sided die is rolled. What is the probability of rolling a 4?",
+        "options": [
+            "A) 1/12",
+            "B) 1/6",
+            "C) 1/4",
+            "D) 1/2"
+        ],
+        "correct_answer": "B",
+        "explanation": "There are 6 possible outcomes (1, 2, 3, 4, 5, 6). Only one is favorable (4). Probability = 1/6."
+    },
+    {
+        "id": "prob_probability_002",
+        "difficulty": "Medium",
+        "question_text": "A deck of 52 cards has 13 hearts. If one card is drawn at random, what is the probability it is NOT a heart?",
+        "options": [
+            "A) 1/4",
+            "B) 1/2",
+            "C) 3/4",
+            "D) 13/52"
+        ],
+        "correct_answer": "C",
+        "explanation": "P(Heart) = 13/52 = 1/4. P(Not Heart) = 1 - 1/4 = 3/4."
+    },
+    {
+        "id": "prob_probability_003",
+        "difficulty": "Hard",
+        "question_text": "A two-way table shows: \n          | Male | Female | Total \nPassed    |  30  |   40   |  70 \nFailed    |  10  |   20   |  30 \nTotal     |  40  |   60   | 100 \nGiven that a student is female, what is the probability she passed?",
+        "options": [
+            "A) 40/100",
+            "B) 40/60",
+            "C) 40/70",
+            "D) 60/100"
+        ],
+        "correct_answer": "B",
+        "explanation": "We're given 'female', so focus on the Female column only. Total females = 60. Females who passed = 40. P(Passed | Female) = 40/60 = 2/3."
+    }
+]

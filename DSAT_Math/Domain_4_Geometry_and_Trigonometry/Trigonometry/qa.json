@@ -1,0 +1,41 @@
+[
+    {
+        "id": "geom_trig_001",
+        "difficulty": "Easy",
+        "question_text": "In a right triangle, if sin(θ) = 3/5, what is the ratio of the opposite side to the hypotenuse?",
+        "options": [
+            "A) 3/4",
+            "B) 3/5",
+            "C) 4/5",
+            "D) 5/3"
+        ],
+        "correct_answer": "B",
+        "explanation": "sin(θ) is defined as opposite/hypotenuse. So the ratio is 3/5."
+    },
+    {
+        "id": "geom_trig_002",
+        "difficulty": "Medium",
+        "question_text": "Convert 45° to radians.",
+        "options": [
+            "A) π/6",
+            "B) π/4",
+            "C) π/3",
+            "D) π/2"
+        ],
+        "correct_answer": "B",
+        "explanation": "Use the conversion: Degrees * π/180 = Radians. 45 * π/180 = π/4."
+    },
+    {
+        "id": "geom_trig_003",
+        "difficulty": "Hard",
+        "question_text": "A ladder leans against a wall at a 60° angle with the ground. If the ladder is 12 feet long, how high up the wall does it reach? (Use √3 ≈ 1.73)",
+        "options": [
+            "A) 6 feet",
+            "B) 10.4 feet",
+            "C) 6√3 feet",
+            "D) 12 feet"
+        ],
+        "correct_answer": "C",
+        "explanation": "The height is opposite the 60° angle, and the ladder is the hypotenuse. sin(60°) = height/12. sin(60°) = √3/2. So, √3/2 = height/12. height = 12 * √3/2 = 6√3."
+    }
+]

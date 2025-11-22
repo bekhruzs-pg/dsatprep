@@ -1,0 +1,41 @@
+[
+    {
+        "id": "alg_sys_eq_001",
+        "difficulty": "Easy",
+        "question_text": "If x + y = 10 and x - y = 4, what is the value of x?",
+        "options": [
+            "A) 3",
+            "B) 5",
+            "C) 7",
+            "D) 14"
+        ],
+        "correct_answer": "C",
+        "explanation": "Add the two equations: (x + y) + (x - y) = 10 + 4. 2x = 14. Divide by 2: x = 7."
+    },
+    {
+        "id": "alg_sys_eq_002",
+        "difficulty": "Medium",
+        "question_text": "System: \n y = 3x - 5 \n 2x + y = 10 \nWhat is the solution (x, y) to the system of equations above?",
+        "options": [
+            "A) (1, -2)",
+            "B) (3, 4)",
+            "C) (2, 1)",
+            "D) (3, 1)"
+        ],
+        "correct_answer": "B",
+        "explanation": "Substitute y = 3x - 5 into the second equation: 2x + (3x - 5) = 10. 5x - 5 = 10. 5x = 15. x = 3. Plug x=3 back into first equation: y = 3(3) - 5 = 4. Solution is (3, 4)."
+    },
+    {
+        "id": "alg_sys_eq_003",
+        "difficulty": "Hard",
+        "question_text": "kx - 3y = 4 \n 4x - 5y = 7 \nFor what value of k will the system of equations above have no solution?",
+        "options": [
+            "A) 12/5",
+            "B) 2.4",
+            "C) 2.5",
+            "D) 3.2"
+        ],
+        "correct_answer": "B",
+        "explanation": "For no solution, the lines must be parallel, meaning their slopes are equal. \nSlope of eq 1: -3y = -kx + 4 -> y = (k/3)x - 4/3. m1 = k/3. \nSlope of eq 2: -5y = -4x + 7 -> y = (4/5)x - 7/5. m2 = 4/5. \nSet slopes equal: k/3 = 4/5. Cross multiply: 5k = 12. k = 12/5 = 2.4."
+    }
+]

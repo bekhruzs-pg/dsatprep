@@ -1,0 +1,41 @@
+[
+    {
+        "id": "prob_ratio_001",
+        "difficulty": "Easy",
+        "question_text": "If a car travels 60 miles in 1 hour, how many miles does it travel in 3 hours at the same speed?",
+        "options": [
+            "A) 120",
+            "B) 180",
+            "C) 200",
+            "D) 240"
+        ],
+        "correct_answer": "B",
+        "explanation": "Rate is 60 miles/hour. Distance = Rate * Time = 60 * 3 = 180 miles."
+    },
+    {
+        "id": "prob_ratio_002",
+        "difficulty": "Medium",
+        "question_text": "On a blueprint, 1/4 inch represents 2 feet. If a room is 12 feet long, how long is it on the blueprint?",
+        "options": [
+            "A) 1.5 inches",
+            "B) 2 inches",
+            "C) 3 inches",
+            "D) 6 inches"
+        ],
+        "correct_answer": "A",
+        "explanation": "Set up proportion: (0.25 inch / 2 feet) = (x inch / 12 feet). Cross multiply: 2x = 0.25 * 12. 2x = 3. x = 1.5 inches."
+    },
+    {
+        "id": "prob_ratio_003",
+        "difficulty": "Hard",
+        "question_text": "A density of 5 grams per cubic centimeter is equivalent to how many kilograms per cubic meter? (1 kg = 1000 g, 1 m = 100 cm)",
+        "options": [
+            "A) 500",
+            "B) 5,000",
+            "C) 50,000",
+            "D) 5,000,000"
+        ],
+        "correct_answer": "B",
+        "explanation": "5 g/cm^3 * (1 kg / 1000 g) * (100 cm / 1 m)^3. \n= 5 * (1/1000) * (1,000,000) kg/m^3 \n= 5 * 1000 = 5,000 kg/m^3."
+    }
+]
